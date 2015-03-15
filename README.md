@@ -1,3 +1,4 @@
 # java1
 java exercises 
-TBD
+
+The purpose of this project is to learn Java and git
