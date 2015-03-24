@@ -4,8 +4,9 @@ public class prime1 {
 	public static void main(String args[]) {
 		System.out.println("Starting computing......");
 		
-		Prime p = new Prime();
-		p.compute(10);
+		PrimeCalc p = new PrimeCalc(1000000);
+		p.compute();
+		p.print_results();
 		
 		System.out.println("\nDONE computing.");
 	}
